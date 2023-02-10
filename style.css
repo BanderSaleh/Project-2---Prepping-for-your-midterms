@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Declared my downloaded font via my project's fonts folder: */
+@font-face {
+    font-family: 'helveticalight';
+    src: url('fonts/helvetica_light_regular-webfont.woff2') format('woff2'),
+         url('fonts/helvetica_light_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    padding: 16px;
+    text-align: center;
+    color: black;
+    font-family: 'helveticalight', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tcl-simple-banner {
+    -webkit-box-shadow: 0 0 1px #d0d1d2;
+    box-shadow: 0 0 1px #d0d1d2;
+}
+.navbar {
+    background-color: #b6c6d6;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    /* height: 100px; */
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar-logo {
+    display: flex;
+    height: 10px;
+}
+
+#bgImage img{
+    /* display: block; */
+    /* margin: auto; */
+    max-width: 100%;
+    /* object-fit: contain; */
+}
+
+footer {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px; */
+    padding: 16px;
+    text-align: center;
+    color: black;
+    font-family: 'helveticalight', Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    padding: 16px;
+}
+
+.footer-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
