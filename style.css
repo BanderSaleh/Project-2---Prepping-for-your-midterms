@@ -128,6 +128,42 @@ main {
     margin: auto;
 }
 
+/* More detail:  */
+.modelS-fg3 {
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 7%;
+    font-style: italic;
+    margin: auto;
+}
+
+.modelS-fg4 {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    font-style: italic;
+    margin: auto;
+}
+
+.modelS-fg5 {
+    display: flex;
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    font-style: italic;
+    margin: auto;
+}
+
+.modelS-fg6 {
+    display: flex;
+    position: absolute;
+    top: 36%;
+    left: 8%;
+    font-style: italic;
+    margin: auto;
+}
 
 
 
@@ -169,10 +205,40 @@ main {
     position: absolute;
     /* top: 750px; */
     top: 18%;
-    left: 42.5%;
+    left: 43%;
     font-size: 14px;
+    font-style: italic;
     margin: auto;
 }
+
+/* More detail:  */
+.model3-fg4 {
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-style: italic;
+    margin: auto;
+}
+
+.model3-fg5 {
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 4.5%;
+    font-style: italic;
+    margin: auto;
+}
+
+.model3-fg6 {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 9%;
+    font-style: italic;
+    margin: auto;
+}
+
 
 
 
@@ -206,6 +272,43 @@ main {
     /* top: 1320px; */
     top: 14%;
     left: 39%;
+    margin: auto;
+}
+
+/* More detail:  */
+.modelX-fg3 {
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    font-style: italic;
+    margin: auto;
+}
+
+.modelX-fg4 {
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    font-style: italic;
+    margin: auto;
+}
+
+.modelX-fg5 {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 11%;
+    font-style: italic;
+    margin: auto;
+}
+
+.modelX-fg6 {
+    display: flex;
+    position: absolute;
+    top: 37%;
+    left: 7%;
+    font-style: italic;
     margin: auto;
 }
 
@@ -248,7 +351,33 @@ main {
     margin: auto;
 }
 
+/* More detail:  */
+.modelY-fg3 {
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 7%;
+    font-style: italic;
+    margin: auto;
+}
 
+.modelY-fg4 {
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 4%;
+    font-style: italic;
+    margin: auto;
+}
+
+.modelY-fg5 {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    font-style: italic;
+    margin: auto;
+}
 
 
 
