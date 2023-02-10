@@ -1,10 +1,21 @@
+/* Included CSS reset:  */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Declared my downloaded font via my project's fonts folder: */
+
+
+/* The external style sheet that I created for my webpage:  */
+
+
+
+/* I Downloaded and Declared the font "Helvetica-Light" via my project's
+fonts folder. I chose this font since it's aesthetically pleasing and a
+safe font to use that typically satisfied the basic rules of Graphic Design. */
+
 @font-face {
     font-family: 'helveticalight';
     src: url('fonts/helvetica_light_regular-webfont.woff2') format('woff2'),
@@ -13,69 +24,263 @@
     font-style: normal;
 }
 
+
+/* Header Element styling at the top of the webpage's main body tag
+resembling the pop-up that notifies the user about the current promotion*/
 header {
     padding: 16px;
+    text-align: center;
+    color: black;
+    font-family: 'helveticalight', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* Main Element styling of the body tag containing the main data in the middle of the webpage's scrolling data
+featuring the Navbar and bgImages1-4 classes */
+main {
+    font-family: 'helveticalight', Helvetica, Arial, sans-serif;
+    margin: auto;
+}
+
+
+
+/* Our div class holding our entire navbar section at the top of our page and top of our <body> <main>.
+    contains: div class ("primary-icon" img) & ul class.  */
+.navbar {
+    /* background-color: #b6c6d6; */
+    padding: 16px;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height: 10%;
+    /* height: 85px; */
+    margin: auto;
+}
+
+/* 1st specified subclass (div class) listing our logo img  */
+.primary-icon {
+    /* declaring the image size: */
+    height: 15px;
+    /* where the image is aligned:  */
+    padding-left: 30%;
+    margin: auto;
+}
+
+/* 2nd specified subclass (ul class) listing Models to Account */
+.nav-list {
+    /* get rid of bullet point style:  */
+    list-style-type: none;
+    margin: auto;
+}
+
+/* 2nd specified subclass's individual <li> listed item <p> within the parent <ul> listed ^above first */
+.list-item {
+    /* display each listed item side by side as 1 row:  */
+    display: inline-block;
+    /* spacing between each listed item:  */
+    padding: 12px 20px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+/* background image 1 (tesla Model S) :  */
+
+#bgImage1 {
+    /* position: relative; */
+}
+
+#bgImage1 img{
+    display: flex;
+    justify-content: space-around;
+    /* adjust size of background image:  */
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.modelS-fg1 {
+    display: flex;
+    position: absolute;
+    /* top: 150px; */
+    top: 15%;
+    left: 45%;
+    align-content: center;
+    margin: auto;
+}
+
+.modelS-fg2 {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    margin: auto;
+}
+
+
+
+
+
+/* background image 2 (tesla Model 3) :  */
+
+#bgImage2 {
+    position: relative;
+}
+
+#bgImage2 img{
+    display: flex;
+    justify-content: space-around;
+    /* adjust size of background image:  */
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.model3-fg1 {
+    position: absolute;
+    /* top: 690px; */
+    /* top: 75%; */
+    top: 5%;
+    left: 45%;
+    align-content: center;
+    margin: auto;
+}
+
+.model3-fg2 {
+    position: absolute;
+    /* top: 750px; */
+    top: 14%;
+    left: 41%;
+    margin: auto;
+}
+
+.model3-fg3 {
+    position: absolute;
+    /* top: 750px; */
+    top: 18%;
+    left: 42.5%;
+    font-size: 14px;
+    margin: auto;
+}
+
+
+
+
+/* background image 3 (tesla Model X) :  */
+
+#bgImage3 {
+    position: relative;
+}
+
+#bgImage3 img{
+    display: flex;
+    justify-content: space-around;
+    /* adjust size of background image:  */
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.modelX-fg1 {
+    position: absolute;
+    /* top: 1260px; */
+    /* top: 139%; */
+    top: 5%;
+    left: 45%;
+    margin: auto;
+}
+
+.modelX-fg2 {
+    position: absolute;
+    /* top: 1320px; */
+    top: 14%;
+    left: 39%;
+    margin: auto;
+}
+
+
+
+
+
+/* background image 4 (tesla Model Y) :  */
+
+#bgImage4 {
+    position: relative;
+}
+
+#bgImage4 img{
+    display: flex;
+    justify-content: space-around;
+    /* adjust size of background image:  */
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.modelY-fg1 {
+    position: absolute;
+    /* top: 1875px; */
+    /* top: 203%; */
+    top: 5%;
+    left: 45%;
+    /* left: 50%; */
+    margin: auto;
+}
+
+.modelY-fg2 {
+    position: absolute;
+    /* top: 1935px; */
+    /* top: 208%; */
+    top: 14%;
+    left: 39%;
+    /* left: 47%; */
+    margin: auto;
+}
+
+
+
+
+
+
+/* The Footer Element styling that concludes our webpage's data in the only possible body tag after the main section*/
+footer {
     text-align: center;
     color: black;
     font-family: 'helveticalight', Helvetica, Arial, sans-serif;
     font-size: 12px;
     display: flex;
     justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: auto;
 }
 
-.tcl-simple-banner {
-    -webkit-box-shadow: 0 0 1px #d0d1d2;
-    box-shadow: 0 0 1px #d0d1d2;
-}
-.navbar {
-    background-color: #b6c6d6;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    /* height: 100px; */
-    align-items: center;
-}
-
-.nav-list {
-    list-style-type: none;
-}
-
-.list-item {
-    display: inline-block;
-    padding: 20px 10px;
-}
-
-.navbar-logo {
-    display: flex;
-    height: 10px;
-}
-
-#bgImage img{
-    /* display: block; */
-    /* margin: auto; */
-    max-width: 100%;
-    /* object-fit: contain; */
-}
-
-footer {
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 10px; */
-    padding: 16px;
-    text-align: center;
-    color: black;
-    font-family: 'helveticalight', Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer-text {
-    padding: 16px;
-}
-
+/* Each individually listed <a>item</a> centered at the bottom of the webpage: */
 .footer-item {
     display: inline-block;
     padding: 20px 10px;
+    margin: auto;
+}
+
+/* The text at the very bottom of our webpage & footer text: */
+#footer-signature {
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 12px;
+    opacity: 0.75;
+    margin: auto;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
